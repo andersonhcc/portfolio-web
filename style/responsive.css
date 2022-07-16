@@ -1,0 +1,169 @@
+@media screen and (max-width: 760px) {
+    
+
+
+    body{
+        margin:0;   
+    }
+
+    .skill-front{
+        max-width: 100px;
+    }
+
+
+    .fixando{
+        max-width: 300px;
+    }
+
+    .div-nav{
+        max-width: 300px;
+    }
+
+
+
+    nav{
+        display: flex;
+        max-width: 20px;
+   
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: -200px;
+        font-size: 12px;
+    }
+
+    aside{
+        margin-top: -70px;
+    }
+
+    main img {
+        display: none;
+    }
+ 
+
+    main aside h1{
+        font-size: 30px;
+    }
+
+    main aside h2{
+        font-size: 20px;
+    }
+
+    main aside p {
+        font-size: 14px;
+    }
+
+    main aside button {
+        width: 150px;
+    }
+
+    .name-anderson{
+        display: none;
+    }
+
+    /* Habilidades */
+
+    .skills-elements{
+        width: 400px;
+        margin-top: 50px;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    #skills{
+        margin-top: 150px;
+        
+    }
+
+    /* Projetos */
+
+    #project{
+        margin-top: 200px;
+    }
+
+
+
+    .project-images{
+        flex-direction: column;
+        margin-left: 50px;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .image-breve{
+        margin-top: 30px;
+        width: 270px;
+        height: 200px;
+      
+    }
+
+    .project-buttons{
+        flex-direction: column;
+    }
+
+
+    /* Sobre */
+
+    #about{
+        margin-top: 100px;
+    }
+
+    .about-elements{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-div-image{
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .about-text{
+        margin-top: -150px;
+    }
+
+
+    .about-image{
+    
+        width: 180px;
+        height: 180px;
+    }
+
+    
+    /* Contato */
+
+    #contact{
+        margin-top: 300px;
+    }
+
+    .elements{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+
+    .contact-element-one{
+        margin-left: 30px;
+        display: none;
+    }
+
+    .contact-element-two input{
+        width: 300px;
+    }
+
+    .contact-element-two textarea{
+        width: 300px !important;
+        height: 100px !important;
+    }
+
+    #skills,#project,#about:target{
+        scroll-margin-top: 40px;
+    }
+    
+    #contact {
+        scroll-margin-block-start: 120px;
+    }
+    
+}
