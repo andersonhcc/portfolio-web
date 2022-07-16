@@ -59,7 +59,8 @@ a {
 }
 
 .div-anderson{
-    margin-top: 50px;
+    margin-top: 30px;
+    position: fixed;
 }
 
 
@@ -124,6 +125,7 @@ ul{
     margin:0;
     padding:0;
     list-style: none;
+    position: fixed;
 }
 
 aside{
