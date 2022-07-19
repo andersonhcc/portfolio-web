@@ -69,9 +69,6 @@ a {
     position: fixed;
     height: 5rem;
     padding: 1rem;
-    
- 
-
 }
 
 .element-menu{
@@ -86,7 +83,7 @@ a {
 
 
 .scroll{
-    background:#040e2b;
+    background: #040e2b;
     width: 100%;  
     border:none;
  
@@ -443,6 +440,7 @@ textarea::placeholder{
 }
 
 
+
 /* target header */
 
 #skills,#project,#about:target{
@@ -452,4 +450,3 @@ textarea::placeholder{
 #contact {
     scroll-margin-block-start: 120px;
 }
-
