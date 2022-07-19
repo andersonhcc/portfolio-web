@@ -6,13 +6,17 @@
         margin:0;   
     }
 
+    .div-anderson{
+        display: none;
+    }
+
     .skill-front{
         max-width: 100px;
     }
 
 
     .fixando{
-        max-width: 300px;
+        max-width: 400px;
         position: fixed;
     }
 
@@ -22,15 +26,15 @@
 
     nav{
         display: flex;
-        max-width: 20px;
         position: fixed;
+        width: 100%;
    
     }
 
     nav ul{
         display: flex;
         flex-direction: row;
-        margin-left: -200px;
+        margin: 0 -170px;
         font-size: 12px;
     }
 
