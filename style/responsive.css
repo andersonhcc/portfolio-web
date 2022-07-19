@@ -26,7 +26,6 @@
 
     nav{
         display: flex;
-        position: fixed;
         width: 100%;
    
     }
@@ -36,6 +35,7 @@
         flex-direction: row;
         margin: 0 -170px;
         font-size: 12px;
+        
     }
 
     aside{
