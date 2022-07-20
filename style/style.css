@@ -204,7 +204,7 @@ i{
 
 #skills{
     display: flex;
-    margin-top: 350px;
+    margin-top: 300px;
     flex-direction: column;
 
 }
@@ -351,6 +351,13 @@ i{
    margin-top: -120px; 
 }
 
+.titles-projects p i {
+    color: #2952ce;
+    font-size: 15px;
+    margin-left: 5px;
+    cursor: auto;
+}
+
 
 /* About */
 
@@ -466,7 +473,7 @@ textarea::placeholder{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* Header */
@@ -485,4 +492,11 @@ textarea::placeholder{
 
 #contact {
     scroll-margin-block-start: 120px;
+}
+
+
+.separador{
+    width: 100%;
+    border: 0.1px solid #2952ce;
+    margin-top: 100px;
 }
